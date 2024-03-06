@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="login.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="log.jpg" alt="Avatar" class="avatar">
+      </div>
+  <h1>Please log in to your A.R.K. account</h1>
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+        <a href = "main.html">
+        <button type="button" class="login-button" onclick="login()">Login</button>
+
+      </div>
+      
+      <div class="container" style="background-color:#f1f1f1">
+        
+      </div>
+      <div>
+        <p><a href="signup.html">Don't have an account? Sign up</a></p>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

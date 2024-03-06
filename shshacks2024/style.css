@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Times New Roman', sans-serif;
+  background: linear-gradient(to right, #b07f43, #2e2d2c);
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.angazacenter-button,
+.giveNKind-button,
+.gg-button,
+.game-button,
+.salt-button,
+.nicasa-button {
+  background-color: #fc7e08;
+  color: #000;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+}
+
+.angazacenter-button:hover,
+.giveNKind-button:hover,
+.gg-button:hover,
+.game-button:hover,
+.salt-button:hover,
+.nicasa-button:hover {
+  background-color: #fc7e08;
+  transform: translateY(-3px);
+}
+
+.angazacenter-button:active,
+.giveNKind-button:active,
+.gg-button:active,
+.game-button:active,
+.salt-button:active,
+.nicasa-button:active {
+  transform: scale(0.95);
+}
+
+.logo {
+  position: absolute;
+  flex-content: center;
+  top: 20px;
+  left: 20px;
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.return {
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #f20202;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+}
+
+.chat {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  width: 100px;
+  height: auto;
+  border-radius: 0%;
+  cursor: pointer;
+  transition: box-shadow 10s;
+}
+
+.chat:active {
+  opacity: 0.5;
+}
+
+.game-button {
+  background-color: #fc7e08;
+  color: #000;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  right: 100px;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+}
+
+.gg-button {
+  background-color: #fc7e08;
+  color: #000;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-content1 {
+  color: #fff;
+  font-size: 18px;
+  posi
+}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+.contact-button{
+  background-color: #fc7e08;
+  color: #000;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+}

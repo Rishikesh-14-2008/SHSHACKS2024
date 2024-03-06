@@ -1,0 +1,24 @@
+.salt-center{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+}
+
+.page2content{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+
+}
+.salt1{
+
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 25%;
+  height: auto;
+
+}
+
+
+

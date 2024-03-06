@@ -1,0 +1,39 @@
+.angaza-center{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 500%;
+}
+
+.page2content{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 500%;
+  
+}
+.angaza1{
+ 
+  position: absolute;
+  top: 430px;
+  left: 10px;
+  width: 25%;
+  height: auto;
+  
+}
+.angaza2
+{
+  position: absolute;
+  top: 430px;
+  left: 500px;
+  width: 25%;
+  height: 250px;
+}
+.angaza3
+{
+  position: absolute;
+  top: 430px;
+  left: 1000px;
+  width: 25%;
+  height: 250px;
+}
+
+
